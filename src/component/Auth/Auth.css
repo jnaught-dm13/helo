@@ -6,6 +6,10 @@
 .auth-main {
     display: flex;
     justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #FF70A6, #E9FF70);
+    height: 100vh;
+    width: 100%;
 }
 
 .login-box {
@@ -14,15 +18,35 @@
     align-items: center;
     background: linear-gradient(to right, #FF70A6, #E9FF70);
     border-radius: 10px;
-    height: 30vh;
+    /* height: 20vh; */
     width: 20vw;
+    margin: 20px;
+    color: white;
+    padding: 60px 20px 0px 20px;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.561);
 }
 
 .login-box>input {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-evenly; */
     width: 30%;
 }
 
 .inputs {
+    display: inline-block;
+}
+
+.login-buttons {
     display: flex;
-    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+.login-buttons>button {
+    color: white;
+    height: 30px;
+    background-color: black;
+    border-style: none;
 }
